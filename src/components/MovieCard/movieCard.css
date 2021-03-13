@@ -21,6 +21,12 @@ article h2 {
   padding: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+  article h2 {
+    font-size: 1.7rem;
+  }
+}
+
 article h2 a {
   text-decoration: none;
   color: #111;
