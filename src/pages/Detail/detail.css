@@ -39,6 +39,7 @@ div.BoxDetail h2 {
 
 div.BoxDetail p {
   max-width: 700px;
+  padding: 1rem;
   line-height: 2.5rem;
   margin-top: 1.3rem;
   font-size: 1.5em;
