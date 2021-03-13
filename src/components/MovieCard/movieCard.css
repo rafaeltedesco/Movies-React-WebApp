@@ -11,7 +11,7 @@ div.CardBox {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 95%;
   filter: drop-shadow(2px 2px 5px #333);
 }
 
