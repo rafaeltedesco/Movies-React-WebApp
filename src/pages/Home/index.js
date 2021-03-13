@@ -29,7 +29,7 @@ class Home extends Component {
         {this.state.movies && 
         this.state.movies.map(movie=> {
           return (
-            <MovieCard id={movie.id} nome={movie.nome} foto={movie.foto} />
+            <MovieCard key={movie.id} id={movie.id} nome={movie.nome} foto={movie.foto} />
           )
         })}
       </section>
