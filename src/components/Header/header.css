@@ -1,0 +1,53 @@
+:root {
+  --red: crimson;
+}
+
+header {
+  width: 100vw;
+}
+
+header h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(109, 24, 18);
+}
+
+header ul li {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #ffa292;
+  padding: 0 40px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+header ul li a:hover {
+  color: #fff;
+  transform: all 0.5s ease;
+  background-color: rgb(77, 19, 15);
+}
+
+section.Header {
+  background-color: var(--red);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

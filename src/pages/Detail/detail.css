@@ -1,0 +1,40 @@
+article.Detail {
+  width: 100vw;
+}
+
+div.InnerDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.BoxDetail {
+  background-color: ghostwhite;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+div.BoxDetail p {
+  max-width: 700px;
+  line-height: 1.8rem;
+  margin-top: 1.3rem;
+}
+
+div.BoxDetail p a {
+  text-decoration: none;
+  color: var(--red);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+div.BoxDetail p a:hover {
+  background-color: var(--red);
+  color: #fff;
+  transition: all 0.8s ease;
+}

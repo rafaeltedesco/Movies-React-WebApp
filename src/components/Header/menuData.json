@@ -1,0 +1,4 @@
+[
+  {"path":"/", "pageName":"Home"},
+  {"path": "/filmes", "pageName": "Filmes"}
+]
