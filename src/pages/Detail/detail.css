@@ -20,7 +20,7 @@ div.BoxDetail {
 }
 
 div.BoxDetail img {
-  width: 100%;
+  max-width: 700px;
 }
 
 div.BoxDetail h2 {
