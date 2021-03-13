@@ -3,6 +3,7 @@ article.Detail {
 }
 
 div.InnerDetail {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,16 +11,36 @@ div.InnerDetail {
 }
 
 div.BoxDetail {
+  width: 90%;
   background-color: ghostwhite;
-  padding: 1rem;
+  padding: 2rem;
   margin: 1rem;
   border-radius: 5px;
+  filter: drop-shadow(2px 2px 5px #333);
+}
+
+div.BoxDetail img {
+  width: 100%;
+}
+
+div.BoxDetail h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  div.BoxDetail h2 {
+    font-size: 2rem;
+  }
 }
 
 div.BoxDetail p {
-  max-width: 700px;
-  line-height: 1.8rem;
+  max-width: 100%;
+  line-height: 2.5rem;
   margin-top: 1.3rem;
+  font-size: 1.5em;
 }
 
 div.BoxDetail p a {

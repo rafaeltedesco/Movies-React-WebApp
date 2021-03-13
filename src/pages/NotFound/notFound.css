@@ -1,0 +1,30 @@
+section.Page404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+article.notFoundBox {
+  background-color: #fff;
+  padding: 4rem;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #333);
+}
+
+article.notFoundBox h2 {
+  font-size: 4.5vw;
+}
+
+article.notFoundBox a {
+  font-size: 4vw;
+  text-decoration: none;
+  color: var(--red);
+}
+
+article.notFoundBox a:hover {
+  background-color: var(--red);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
