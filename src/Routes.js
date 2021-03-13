@@ -7,7 +7,6 @@ import {
 import Header from './components/Header'
 import Home from './pages/Home'
 import Detail from './pages/Detail'
-import Movies from './pages/Movies'
 import NotFound from './pages/NotFound'
 
 class Routes extends Component {
@@ -17,7 +16,6 @@ class Routes extends Component {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/filmes" component={Movies} />
           <Route path="/filmes/:id" component={Detail} />
           <Route path="*" component={NotFound} />
         </Switch>
